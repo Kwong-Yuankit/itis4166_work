@@ -1,23 +1,25 @@
 html, body {
     height: 100%;
-    background-color: #14213d;
-    color: #ffffff;
-    font-family: tahoma;
+    background-color: #f1faee;
+    color: #1d3557;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-header, footer {
-	margin-top: 20px;
-	margin-bottom: 20px;
+header {
+    background-color: #1d3557;
+	padding-top: 20px;
 }
-
-h1, h2, h3 {
-	font-family: Cambria, Cochin, Georgia, serif;
-	text-align: center;
-	line-height: 0px;
+footer {
+    background-color: #1d3557;
+    color: #f1faee;
+    text-align: center;
+    margin-bottom:0px;
 }
 
 #gen_nav {
     text-align: left;
+    padding-left: 20px;
+    margin-top: 10px;
 }
 
 #head {
@@ -25,11 +27,23 @@ h1, h2, h3 {
 }
 
 #logo {
-    justify-content: center;
-    width: 150px;
+    width: 200px;
 }
 
 #userLinks {
     text-align: right;
-    align-content: center;
+    position: relative;
+    padding-right: 20px;
+    
+}
+
+main {
+    padding: 100px 100px;
+}
+
+a:link {
+    color:#e63946;
+}
+a:visited {
+    color: #ffb703;
 }
