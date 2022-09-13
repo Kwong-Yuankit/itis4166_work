@@ -1,4 +1,4 @@
-html, body {
+body {
     background-color: #f1faee;
     color: black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,8 +32,10 @@ footer {
 }
 
 #userLinks {
+    float:right;
     text-align: right;
     position: relative;
+    margin-top: 15px;
     padding-right: 20px;
     
 }
