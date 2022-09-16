@@ -8,45 +8,76 @@
 
 <body>
     <header>
-        <span id="head">
-            <img id="logo" src="images/logo.png">
-            <div id="userLinks">
-                <a href="#">Start a New Connection</a>
-                ||
-                <a href="#">Login</a>
-                ||
-                <a href="#">Sign up</a>
-            </div>
-        </span>
+        <div id="main-head">
+            <a href="index.html"><img id="logo" src="images/logo.png" alt="kwongsong logo"></a>
+            <nav id="userLinks">
+                <ul>
+                    <li><a href="newConnection.html">Start a New Connection</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Sign up</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+        <nav id="gen_nav">
+            <a href="connections.html">Connections</a>
+        </nav>
     </header>
-    <nav id="gen_nav">
-        <a href="connections.html">Connections</a>
-
-
-    </nav>
 
     <main>
-        
+        <form class="myForm">
+            <div class="form-group"> 
+                <label for="topic">Topic</label>
+                <input type="text" name="topic" placeholder="Topic Name">
+            </div>
+            <div class="form-group"> 
+                <label for="title">Title</label>
+                <input type="text" name="title" placeholder="Title Name">
+            </div>
+            <div class="form-group"> 
+                <label for="host">Host</label>
+                <input type="text" name="host" placeholder="Host">
+            </div>
+            <div class="form-group"> 
+                <label for="details">Details</label>
+                <textarea name="details" placeholder="Enter additional details here."></textarea>
+            </div>
+            <div class="form-group"> 
+                <label for="date">Date</label>
+                <input type="date" name="date">
+            </div>
+            <div class="form-group"> 
+                <label for="where">Where</label>
+                <input type="text" name="where" placeholder="Enter the location.">
+            </div>
+            <div class="form-group"> 
+                <label for="start">Start</label>
+                <input type="time" name="start">
+            </div>
+            <div class="form-group"> 
+                <label for="end">End</label>
+                <input type="time" name="end">
+            </div>
+            <div class="form-group"> 
+                <label for="imgURL">Image URL</label>
+                <input type="text" name="imgURL" placeholder="Enter an image for the connection">
+            </div>
+            <div>
+                <button class="createButton"><a href="connections.html">Create Connection</a></button>
+            </div>
+        </form>
     </main>
 
     <footer>
-        <br/>
-        <nav>
+        <br>
+        <nav id="footer-nav">
             <a href="#">About</a>
             <a href="#">Contact</a>
         </nav>
         <br>
-
         <p>
-            Page built by Kwongsong
+            © Kwongsong
         </p>
-        <a href="https://validator.w3.org/check?uri=referer">
-            <img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
-        </a>
-
-        <a href="https://jigsaw.w3.org/css-validator/check/referer">
-            <img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
-        </a>
     </footer>
 </body>
 </html>
