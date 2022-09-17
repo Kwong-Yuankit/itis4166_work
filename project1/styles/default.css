@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     margin:auto;
+    min-height: 100vh;
 }
 
 hr {
@@ -81,7 +82,8 @@ hr {
 #main-div {
     height: 375px;
     width: 75%;
-    margin: auto
+    margin: auto;
+    flex:1;
 }
 
 
