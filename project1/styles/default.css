@@ -115,7 +115,7 @@ main a:hover {
 
 .myForm {
     display: block;
-    height: 635px;
+    height: 700px;
     margin-left: 35%;
     margin-right:35%;
     width: 70%;
@@ -123,7 +123,7 @@ main a:hover {
 }
 
 .myForm .form-group {
-    padding-bottom: 3px;
+    padding-bottom: 5px;
 }
 
 .myForm label {
@@ -181,4 +181,25 @@ main a:hover {
     font-size: 18px;
     box-shadow: 0px 5px 5px 0px black;
     cursor: pointer;
+}
+
+.createButton {
+    margin-top: 10px;
+    display: block;
+    width: 90px;
+    height: 25px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color: white;
+    line-height: 20px;
+}
+
+a.createButton:hover{
+    text-decoration: none;
+    background: green;
+    color: white;
 }
